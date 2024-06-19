@@ -1,9 +1,6 @@
 * {
     margin: 0;
     scroll-behavior: smooth;
-}
-
-body {
     font-family: 'Poppins';
 }
 
@@ -21,6 +18,9 @@ img {
 a {
     text-decoration: none;
 }
+i{
+    color: #000000b0;
+}
 
 /* header */
 .top-bar {
@@ -30,6 +30,10 @@ a {
 .contact-information ul li a,
 .contact-details ul li a {
     font-size: 14px;
+}
+
+.contact-information ul li a i{
+    padding-right: 5px;
 }
 
 .contact-information ul li,
@@ -71,10 +75,24 @@ a {
 .main-navigation .menu-bar ul li a {
     color: #d58b20;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 .dropdown > ul li a{
     font-family: 'Poppins'!important;
     font-size: 14px !important;
     text-align: left !important;
+}
+.search-bar{
+    margin-top: 10px;
+}
+.search-bar ul li a{
+    color: black;
+    font-weight: 600;
+}
+.search-bar ul li .input-group-text i{
+    padding: 5px;
+}
+.input-group-text{
+    background-color: #fff;
+    border-radius: 6px 0 0 6px;
 }
